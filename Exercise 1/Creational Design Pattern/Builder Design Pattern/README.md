@@ -9,7 +9,7 @@ Builds a customizable `Computer` object by specifying CPU, RAM, and Storage usin
 ![Builder Pattern Class Diagram](class_diagram.png)
 
 ## Files
-- BuilderPattern.java: Main class to run the example
+- BuilderPattern.java: Main class to run the program
 - src/: Contains all Builder Pattern classes and interfaces
 - class_diagram.png: Generated class diagram image
 
@@ -23,3 +23,4 @@ CPU: Intel i7
 RAM: 16GB
 Storage: 1TB SSD
 ```
+
