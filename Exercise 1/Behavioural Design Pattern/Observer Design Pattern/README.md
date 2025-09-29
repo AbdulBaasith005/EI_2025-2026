@@ -10,7 +10,7 @@ In the Weather Station example, the **WeatherStation** keeps track of observers 
 ![Observer Pattern Class Diagram](class_diagram.png)
 
 ## Files
-- `ObserverPattern.java`: Main class to run the example
+- `ObserverPattern.java`: Main class to run the program
 - `src/`: Contains all Observer Pattern classes and interfaces
 - `class_diagram.png`: Generated class diagram image
 
@@ -21,5 +21,6 @@ Web App: New Temperature = 25.3°C
 Mobile App: New Temperature = 30.5°C
 Web App: New Temperature = 30.5°C
 ```
+
 
 
