@@ -9,7 +9,7 @@ This example demonstrates how a payment system can use different payment strateg
 ![Strategy Pattern Class Diagram](class_diagram.png)
 
 ## Files
-- StrategyPattern.java: Main class to run the example
+- StrategyPattern.java: Main class to run the program
 - src/: Contains all Strategy Pattern classes and interfaces
 - class_diagram.png: Generated class diagram image
 
@@ -18,3 +18,4 @@ This example demonstrates how a payment system can use different payment strateg
 Paid 500.0 using Credit Card: 1234-5678-9876-5432
 Paid 750.0 using PayPal account: user@gmail.com
 ```
+
