@@ -6,6 +6,7 @@ The Observer Pattern is a behavioral design pattern that defines a one-to-many d
 ## Example: Weather Station
 In the Weather Station example, the **WeatherStation** keeps track of observers like **MobileApp** and **WebApp**. When the temperature changes, it notifies all observers, and each observer updates itself with the new temperature. This way, the station and the displays are connected but independent.
 
+## Class Diagram
 ![Observer Pattern Class Diagram](class_diagram.png)
 
 ## Files
@@ -20,4 +21,5 @@ Web App: New Temperature = 25.3°C
 Mobile App: New Temperature = 30.5°C
 Web App: New Temperature = 30.5°C
 ```
+
 
