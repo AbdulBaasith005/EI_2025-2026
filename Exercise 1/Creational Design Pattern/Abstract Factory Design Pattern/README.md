@@ -10,7 +10,7 @@ This example demonstrates the Abstract Factory Pattern by simulating a smart hom
 ![Abstract Factory Pattern Class Diagram](class_diagram.png)
 
 ## Files
-- `AbstractFactory.java`: Main class to run the example
+- `AbstractFactory.java`: Main class to run the program
 - `src/`: Contains all Abstract Factory Pattern classes and interfaces
 - `class_diagram.png`: Generated class diagram image
 
@@ -26,3 +26,4 @@ Google Light: Turning OFF...
 ```
 
 *Output will vary depending on user input and brand selection.*
+
