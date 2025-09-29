@@ -9,7 +9,7 @@ Allows an audio player to play different types of media files (mp3, mp4, vlc) by
 ![Adapter Pattern Class Diagram](class_diagram.png)
 
 ## Files
-- AdapterPattern.java: Main class to run the example
+- AdapterPattern.java: Main class to run the program
 - src/: Contains all Adapter Pattern classes and interfaces
 - class_diagram.png: Generated class diagram image
 
@@ -20,3 +20,4 @@ Playing MP4 file: video1.mp4
 Playing VLC file: movie1.vlc
 Invalid media type: avi
 ```
+
