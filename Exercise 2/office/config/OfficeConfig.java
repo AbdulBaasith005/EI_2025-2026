@@ -33,7 +33,10 @@ public class OfficeConfig {
     public void configureRooms(int count) {
         rooms.clear();
         for (int i = 1; i <= count; i++) {
-            rooms.put(i, new Room(i, scheduler));
+            Room room = new Room(i, scheduler);
+            room.addObserver(new LightSystem());
+            room.addObserver(new AirConditioningSystem());
+            rooms.put(i, room);
         }
         logger.log(Level.INFO, "Office configured with {0} meeting rooms.", count);
         System.out.println("Office configured with " + count + " meeting rooms.");
